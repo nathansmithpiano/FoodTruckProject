@@ -1,4 +1,4 @@
-#### Food Truck Project
+# FoodTruckProject
 
 ### Description
 
@@ -10,5 +10,3 @@
 
 
 ### What was fun?
-# FoodTruckProject
-# FoodTruckProject
