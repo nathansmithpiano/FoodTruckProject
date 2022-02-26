@@ -2,7 +2,7 @@ package com.skilldistillery.foodtruck;
 
 public class FoodTruck {
 	
-	private static int nextTruckId = 0;
+	private static int nextTruckId = 1;
 	private String name;
 	private String type;
 	private int rating;
@@ -24,7 +24,7 @@ public class FoodTruck {
 		return type;
 	}
 	
-	public void setFoodType(String foodType) {
+	public void setFoodType(String type) {
 		this.type = type;
 	}
 	
@@ -37,8 +37,8 @@ public class FoodTruck {
 	}
 	
 	public void setId() {
-		nextTruckId++;
 		this.id = nextTruckId;
+		nextTruckId++;
 	}
 	
 	public String toString() {
